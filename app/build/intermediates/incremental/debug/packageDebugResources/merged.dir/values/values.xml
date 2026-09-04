@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="color_default">#FF5722</color>
+    <color name="color_delete">#FF4C3B</color>
+    <color name="color_details">#04D5C1</color>
+    <color name="color_status_done">#04D5C1</color>
+    <color name="color_status_todo">#FF841A</color>
+    <color name="green">#4CAF50</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">Kanban</string>
+    <string name="description_empty_form_task_fragment">Preencha uma descrição.</string>
+    <string name="description_text">Descrição</string>
+    <string name="email_empty">Preencha  seu email!</string>
+    <string name="email_empty_register_fragment">Preencha um e-mail válido.</string>
+    <string name="email_text">E-mail</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hint_edit_email">Digite seu e-mail</string>
+    <string name="hint_edit_password">Digite sua senha</string>
+    <string name="inform_your_new_task">Informe sua nova tarefa</string>
+    <string name="new_task">Nova tarefa</string>
+    <string name="password_empty">Preencha a senha!</string>
+    <string name="password_empty_register_fragment">Preencha uma senha.</string>
+    <string name="password_text">Senha!</string>
+    <string name="save">Salvar</string>
+    <string name="status">Status</string>
+    <string name="status_task_doing">Fazendo</string>
+    <string name="status_task_done">Feita</string>
+    <string name="status_task_todo">A Fazer</string>
+    <string name="text_button_message">Mensagem</string>
+    <string name="text_button_recover_account_fragment">Enviar</string>
+    <string name="text_button_recover_login_fragment">Recuperar conta</string>
+    <string name="text_button_register_fragment">Enviar</string>
+    <string name="text_button_warning">Entendi</string>
+    <string name="text_info_recover_account_fragment">Informe seu email de cadastro para receber \n um link para alteração de senha.</string>
+    <string name="text_title_login_fragment">Login</string>
+    <string name="text_title_recover_fragment">Criar conta</string>
+    <string name="text_title_toolbar_recover_account_fragment">Recuperar conta</string>
+    <string name="text_title_toolbar_register_fragment">Criar conta</string>
+    <string name="text_title_warning">Atenção</string>
+    <style name="Base.Theme.Task" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+        <item name="colorPrimary">@color/color_default</item>
+        <item name="colorPrimaryVariant">@color/color_default</item>
+        <item name="android:windowBackground">@color/color_default</item>
+    </style>
+    <style name="BottomSheetDialog" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/bottomSheetDialogWrapper</item>
+    </style>
+    <style name="ButtonTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:background">@drawable/bg_btn</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@color/color_default</item>
+        <item name="backgroundTint">@null</item>
+    </style>
+    <style name="CustomTabLayout" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="EditTextTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:background">@drawable/bg_edit_text</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="MyRadioButton" parent="Theme.AppCompat.Light">
+        <item name="colorControlNormal">@color/black</item>
+        <item name="colorControlActivated">@color/green</item>
+    </style>
+    <style name="Theme.Task" parent="Base.Theme.Task"/>
+    <style name="bottomSheetDialogWrapper" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+</resources>

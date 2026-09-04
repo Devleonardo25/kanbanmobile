@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "com.example.task.app-mergeDebugResources-47:/layout/fragment_splash.xml",
+        "source": "com.example.task.app-main-50:/layout/fragment_splash.xml"
+    },
+    {
+        "merged": "com.example.task.app-mergeDebugResources-47:/layout/bottom_sheet.xml",
+        "source": "com.example.task.app-main-50:/layout/bottom_sheet.xml"
+    },
+    {
+        "merged": "com.example.task.app-mergeDebugResources-47:/layout/item_task.xml",
+        "source": "com.example.task.app-main-50:/layout/item_task.xml"
+    },
+    {
+        "merged": "com.example.task.app-mergeDebugResources-47:/layout/fragment_doing.xml",
+        "source": "com.example.task.app-main-50:/layout/fragment_doing.xml"
+    },
+    {
+        "merged": "com.example.task.app-mergeDebugResources-47:/layout/fragment_form_task.xml",
+        "source": "com.example.task.app-main-50:/layout/fragment_form_task.xml"
+    },
+    {
+        "merged": "com.example.task.app-mergeDebugResources-47:/layout/fragment_login.xml",
+        "source": "com.example.task.app-main-50:/layout/fragment_login.xml"
+    },
+    {
+        "merged": "com.example.task.app-mergeDebugResources-47:/layout/fragment_done.xml",
+        "source": "com.example.task.app-main-50:/layout/fragment_done.xml"
+    },
+    {
+        "merged": "com.example.task.app-mergeDebugResources-47:/layout/activity_main.xml",
+        "source": "com.example.task.app-main-50:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.task.app-mergeDebugResources-47:/layout/fragment_register.xml",
+        "source": "com.example.task.app-main-50:/layout/fragment_register.xml"
+    },
+    {
+        "merged": "com.example.task.app-mergeDebugResources-47:/layout/fragment_home.xml",
+        "source": "com.example.task.app-main-50:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "com.example.task.app-mergeDebugResources-47:/layout/fragment_recover_account.xml",
+        "source": "com.example.task.app-main-50:/layout/fragment_recover_account.xml"
+    },
+    {
+        "merged": "com.example.task.app-mergeDebugResources-47:/layout/fragment_todo.xml",
+        "source": "com.example.task.app-main-50:/layout/fragment_todo.xml"
+    }
+]
