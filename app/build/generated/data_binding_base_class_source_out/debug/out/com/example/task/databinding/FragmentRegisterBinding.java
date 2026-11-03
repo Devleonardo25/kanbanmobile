@@ -6,6 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.EditText;
 import android.widget.LinearLayout;
+import android.widget.ProgressBar;
 import android.widget.ScrollView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -32,6 +33,9 @@ public final class FragmentRegisterBinding implements ViewBinding {
   public final LinearLayout linearlayout2;
 
   @NonNull
+  public final ProgressBar progressBar;
+
+  @NonNull
   public final MaterialButton registrar;
 
   @NonNull
@@ -42,12 +46,13 @@ public final class FragmentRegisterBinding implements ViewBinding {
 
   private FragmentRegisterBinding(@NonNull ScrollView rootView, @NonNull EditText email,
       @NonNull LinearLayout linearlayout1, @NonNull LinearLayout linearlayout2,
-      @NonNull MaterialButton registrar, @NonNull EditText senha,
+      @NonNull ProgressBar progressBar, @NonNull MaterialButton registrar, @NonNull EditText senha,
       @NonNull MaterialToolbar toolbar) {
     this.rootView = rootView;
     this.email = email;
     this.linearlayout1 = linearlayout1;
     this.linearlayout2 = linearlayout2;
+    this.progressBar = progressBar;
     this.registrar = registrar;
     this.senha = senha;
     this.toolbar = toolbar;
@@ -98,6 +103,12 @@ public final class FragmentRegisterBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.progressBar;
+      ProgressBar progressBar = ViewBindings.findChildViewById(rootView, id);
+      if (progressBar == null) {
+        break missingId;
+      }
+
       id = R.id.registrar;
       MaterialButton registrar = ViewBindings.findChildViewById(rootView, id);
       if (registrar == null) {
@@ -117,7 +128,7 @@ public final class FragmentRegisterBinding implements ViewBinding {
       }
 
       return new FragmentRegisterBinding((ScrollView) rootView, email, linearlayout1, linearlayout2,
-          registrar, senha, toolbar);
+          progressBar, registrar, senha, toolbar);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

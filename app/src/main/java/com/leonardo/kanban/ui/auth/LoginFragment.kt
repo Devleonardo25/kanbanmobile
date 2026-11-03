@@ -13,10 +13,13 @@ import com.example.task.R
 import com.example.task.databinding.FragmentLoginBinding
 import com.example.task.util.showBottomSheet
 import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.auth.FirebaseAuth.*
 
 class LoginFragment : Fragment() {
     private var _binding: FragmentLoginBinding? = null
     private val binding get() = _binding!!
+
+    private lateinit var auth: FirebaseAuth
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -28,6 +31,8 @@ class LoginFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+
+        auth = FirebaseAuth.getInstance()
 
         initListener()
     }
@@ -66,8 +71,10 @@ class LoginFragment : Fragment() {
         }
     }
 
+
+
     private fun loginUser(email: String, password: String) {
-        val auth = FirebaseAuth.getInstance()
+        val auth = getInstance()
         auth.signInWithEmailAndPassword(email, password)
             .addOnCompleteListener { task ->
                 binding.progressBar.isVisible = false
@@ -75,10 +82,7 @@ class LoginFragment : Fragment() {
                     findNavController().navigate(R.id.action_global_homeFragment)
                 } else {
                     Toast.makeText(
-                        requireContext(),
-                        task.exception?.message ?: "Erro ao realizar login",
-                        Toast.LENGTH_SHORT
-                    ).show()
+                        requireContext(), task.exception?.message ?: "Erro ao realizar login", Toast.LENGTH_SHOR).show()
                 }
             }
     }

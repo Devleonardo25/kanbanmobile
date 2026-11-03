@@ -91,6 +91,11 @@ string description_text
 string email_empty
 string email_empty_register_fragment
 string email_text
+string gcm_defaultSenderId
+string google_api_key
+string google_app_id
+string google_crash_reporting_api_key
+string google_storage_bucket
 string hello_blank_fragment
 string hint_edit_email
 string hint_edit_password
@@ -99,6 +104,7 @@ string new_task
 string password_empty
 string password_empty_register_fragment
 string password_text
+string project_id
 string save
 string status
 string status_task_doing

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.task.app-mergeDebugResources-46:/values-h550dp-port-v13/values-h550dp-port-v13.xml",
+            "outputFile": "com.example.task.app-mergeDebugResources-59:/values-h550dp-port-v13/values-h550dp-port-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\20241tiimi0267\\.gradle\\caches\\9.1.0\\transforms\\de03166b29473ffe7d86a8fa385457f6\\workspace\\transformed\\material-1.13.0\\res\\values-h550dp-port-v13\\values-h550dp-port-v13.xml",
+                    "source": "C:\\Users\\20241tiimi0275\\.gradle\\caches\\9.1.0\\transforms\\e54c14f420c07a0eb6a1a0648f207934\\workspace\\transformed\\material-1.13.0\\res\\values-h550dp-port-v13\\values-h550dp-port-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

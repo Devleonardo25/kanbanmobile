@@ -90,6 +90,11 @@ int string description_text 0x0
 int string email_empty 0x0
 int string email_empty_register_fragment 0x0
 int string email_text 0x0
+int string gcm_defaultSenderId 0x0
+int string google_api_key 0x0
+int string google_app_id 0x0
+int string google_crash_reporting_api_key 0x0
+int string google_storage_bucket 0x0
 int string hello_blank_fragment 0x0
 int string hint_edit_email 0x0
 int string hint_edit_password 0x0
@@ -98,6 +103,7 @@ int string new_task 0x0
 int string password_empty 0x0
 int string password_empty_register_fragment 0x0
 int string password_text 0x0
+int string project_id 0x0
 int string save 0x0
 int string status 0x0
 int string status_task_doing 0x0
