@@ -39,4 +39,6 @@
     <string name="text_title_dialog_confirm_logout" >Deseja sair da sua conta?</string>
     <string name="text_message_dialog_confirm_logout" >Aperte em confirmar para sair da sua conta.</string>
     <string name="text_message_recover_account_fragment">Email de recuperação enviado</string>
+    <string name="text_save_success_for_task_fragment">Tarefa salva com sucesso!</string>
+    <string name="error_generic">Ocorreu um erro!Por favor tente novamente mais tarde.</string>
 </resources>
