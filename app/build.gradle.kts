@@ -5,13 +5,13 @@ plugins {
 }
 
 android {
-    namespace = "com.example.task"
+    namespace = "com.leonardo.task"
     compileSdk {
         version = release(36)
     }
 
     defaultConfig {
-        applicationId = "com.example.task"
+        applicationId = "com.leonardo.task"
         minSdk = 24
         targetSdk = 36
         versionCode = 1
@@ -50,7 +50,7 @@ dependencies {
     androidTestImplementation(libs.androidx.espresso.core)
     implementation(libs.androidx.navigation.ui.ktx)
     implementation(libs.androidx.navigation.fragment.ktx)
-    implementation(platform("com.google.firebase:firebase-bom:34.19.0"))
+    implementation(platform("com.google.firebase:firebase-bom:35.2.0"))
     // Add the dependency for the Firebase Authentication library
     // When using the BoM, you don't specify versions in Firebase library dependencies
     implementation("com.google.firebase:firebase-auth")

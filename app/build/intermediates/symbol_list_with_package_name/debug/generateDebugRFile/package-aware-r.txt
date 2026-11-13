@@ -1,4 +1,4 @@
-com.example.task
+com.leonardo.task
 color black
 color color_default
 color color_delete
@@ -19,6 +19,7 @@ drawable ic_logo
 drawable ic_logout
 id ConstraintLayout1
 id action_global_homeFragment
+id action_homeFragment_to_authentication
 id action_homeFragment_to_formTaskFragment
 id action_loginFragment_to_recoverAccountFragment
 id action_loginFragment_to_registerFragment
@@ -91,6 +92,8 @@ string description_text
 string email_empty
 string email_empty_register_fragment
 string email_text
+string error_generic
+string firebase_database_url
 string gcm_defaultSenderId
 string google_api_key
 string google_app_id
@@ -110,12 +113,17 @@ string status
 string status_task_doing
 string status_task_done
 string status_task_todo
+string text_button_dialog_confirm_logout
 string text_button_message
 string text_button_recover_account_fragment
 string text_button_recover_login_fragment
 string text_button_register_fragment
 string text_button_warning
 string text_info_recover_account_fragment
+string text_message_dialog_confirm_logout
+string text_message_recover_account_fragment
+string text_save_success_for_task_fragment
+string text_title_dialog_confirm_logout
 string text_title_login_fragment
 string text_title_recover_fragment
 string text_title_toolbar_recover_account_fragment

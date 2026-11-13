@@ -123,7 +123,6 @@ class TodoFragment : Fragment() {
     override fun onDestroyView() {
         super.onDestroyView()
 
-        // Remove o listener para não receber dados depois que a tela some
         valueEventListener?.let {
             reference
                 .child("tasks")

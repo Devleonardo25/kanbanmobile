@@ -1,9 +1,9 @@
-com.example.task.app-pngs-0 C:\Users\20241tiimi0275\StudioProjects\kanbanmobile\app\build\generated\res\pngs\debug
-com.example.task.app-res-1 C:\Users\20241tiimi0275\StudioProjects\kanbanmobile\app\build\generated\res\processDebugGoogleServices
-com.example.task.app-updated_navigation_xml-2 C:\Users\20241tiimi0275\StudioProjects\kanbanmobile\app\build\generated\updated_navigation_xml\debug
-com.example.task.app-packageDebugResources-3 C:\Users\20241tiimi0275\StudioProjects\kanbanmobile\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
-com.example.task.app-packageDebugResources-4 C:\Users\20241tiimi0275\StudioProjects\kanbanmobile\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
-com.example.task.app-debug-5 C:\Users\20241tiimi0275\StudioProjects\kanbanmobile\app\build\intermediates\merged_res\debug\mergeDebugResources
-com.example.task.app-debug-6 C:\Users\20241tiimi0275\StudioProjects\kanbanmobile\app\src\debug\res
-com.example.task.app-main-7 C:\Users\20241tiimi0275\StudioProjects\kanbanmobile\app\src\main\res
+com.leonardo.task.app-pngs-0 C:\Users\20241tiimi0275\StudioProjects\kanbanmobile\app\build\generated\res\pngs\debug
+com.leonardo.task.app-res-1 C:\Users\20241tiimi0275\StudioProjects\kanbanmobile\app\build\generated\res\processDebugGoogleServices
+com.leonardo.task.app-updated_navigation_xml-2 C:\Users\20241tiimi0275\StudioProjects\kanbanmobile\app\build\generated\updated_navigation_xml\debug
+com.leonardo.task.app-packageDebugResources-3 C:\Users\20241tiimi0275\StudioProjects\kanbanmobile\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.leonardo.task.app-packageDebugResources-4 C:\Users\20241tiimi0275\StudioProjects\kanbanmobile\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.leonardo.task.app-debug-5 C:\Users\20241tiimi0275\StudioProjects\kanbanmobile\app\build\intermediates\merged_res\debug\mergeDebugResources
+com.leonardo.task.app-debug-6 C:\Users\20241tiimi0275\StudioProjects\kanbanmobile\app\src\debug\res
+com.leonardo.task.app-main-7 C:\Users\20241tiimi0275\StudioProjects\kanbanmobile\app\src\main\res
 gradleHome-0 C:\Users\20241tiimi0275\.gradle

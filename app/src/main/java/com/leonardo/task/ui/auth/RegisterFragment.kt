@@ -1,4 +1,4 @@
-package com.example.task.ui.auth
+package com.leonardo.task.ui.auth
 
 import android.os.Bundle
 import android.util.Patterns
@@ -9,10 +9,10 @@ import android.view.ViewGroup
 import android.widget.Toast
 import androidx.core.view.isVisible
 import androidx.navigation.fragment.findNavController
-import com.example.task.R
-import com.example.task.databinding.FragmentRegisterBinding
-import com.example.task.util.initToolbar
-import com.example.task.util.showBottomSheet
+import com.leonardo.task.R
+import com.leonardo.task.databinding.FragmentRegisterBinding
+import com.leonardo.task.util.initToolbar
+import com.leonardo.task.util.showBottomSheet
 import com.google.firebase.auth.FirebaseAuth
 
 class RegisterFragment : Fragment() {

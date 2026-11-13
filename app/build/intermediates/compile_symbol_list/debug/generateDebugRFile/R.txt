@@ -18,6 +18,7 @@ int drawable ic_logo 0x0
 int drawable ic_logout 0x0
 int id ConstraintLayout1 0x0
 int id action_global_homeFragment 0x0
+int id action_homeFragment_to_authentication 0x0
 int id action_homeFragment_to_formTaskFragment 0x0
 int id action_loginFragment_to_recoverAccountFragment 0x0
 int id action_loginFragment_to_registerFragment 0x0
@@ -90,6 +91,8 @@ int string description_text 0x0
 int string email_empty 0x0
 int string email_empty_register_fragment 0x0
 int string email_text 0x0
+int string error_generic 0x0
+int string firebase_database_url 0x0
 int string gcm_defaultSenderId 0x0
 int string google_api_key 0x0
 int string google_app_id 0x0
@@ -109,12 +112,17 @@ int string status 0x0
 int string status_task_doing 0x0
 int string status_task_done 0x0
 int string status_task_todo 0x0
+int string text_button_dialog_confirm_logout 0x0
 int string text_button_message 0x0
 int string text_button_recover_account_fragment 0x0
 int string text_button_recover_login_fragment 0x0
 int string text_button_register_fragment 0x0
 int string text_button_warning 0x0
 int string text_info_recover_account_fragment 0x0
+int string text_message_dialog_confirm_logout 0x0
+int string text_message_recover_account_fragment 0x0
+int string text_save_success_for_task_fragment 0x0
+int string text_title_dialog_confirm_logout 0x0
 int string text_title_login_fragment 0x0
 int string text_title_recover_fragment 0x0
 int string text_title_toolbar_recover_account_fragment 0x0
